@@ -10,26 +10,6 @@
 
 JSQuADの形式をそのまま利用し、answersのリスト要素のdictに"text_chat"キーを追加しました。
 
-JSQuAD train-v1.1.json
-```
-{
-    "data": [
-        {
-            "title": "造語",
-            "paragraphs": [
-                {
-                    "qas": [
-                        {
-                            "question": "新たに語（単語）を造ることや、既存の語を組み合わせて新たな意味の語を造ること",
-                            "id": "a1000888p0q0",
-                            "answers": [
-                                {
-                                    "text": "造語",
-                                    "answer_start": 0
-                                }
-                            ],
-```
-
 jsquad-train-chat.json
 ```
 {
@@ -51,6 +31,25 @@ jsquad-train-chat.json
                             ],
 ```
 
+JSQuAD train-v1.1.json（元データ）
+```
+{
+    "data": [
+        {
+            "title": "造語",
+            "paragraphs": [
+                {
+                    "qas": [
+                        {
+                            "question": "新たに語（単語）を造ることや、既存の語を組み合わせて新たな意味の語を造ること",
+                            "id": "a1000888p0q0",
+                            "answers": [
+                                {
+                                    "text": "造語",
+                                    "answer_start": 0
+                                }
+                            ],
+```
 
 ## License
 
